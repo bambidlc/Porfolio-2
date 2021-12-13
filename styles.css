@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: gray;
+    font-family: cursive;
+  }
+  
+  h3 {
+    font-size: 24px;
+    text-align: left;
+    color: black;
+  }
+  
+  .header {
+    text-align: center;
+    font-size: 50px;
+    color: whitesmoke;
+  }
+  
+  .menu {
+    text-align: center;
+  }
+  
+  .restartBtn {
+    height: 50px;
+    width: 100px;
+    color: black;
+    text-align: center;
+    border-radius: 25px;
+    border: 5px solid red;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .gameContainer {
+    font-weight: bold;
+    font-size: 50px;  
+    display: grid;
+    width: 350px;
+    height: 350px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 15px;
+    margin: auto;
+    color: white;
+    
+    cursor: pointer;
+  }
+  
+  .message {
+    display: none;
+  }
+  
